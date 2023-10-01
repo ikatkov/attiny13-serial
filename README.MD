@@ -48,7 +48,11 @@ platform_packages =
 
 # Callibrate internal oscilator
 
-Wire up as shown, upload the firmware in this project. Notice that averdude is hardcoded to be `/usr/local/bin/avrdude` it has to be 7.2+ otherwise you get `wrong signature`
+Wire up as shown
+
+![Alt text](wiring.jpg)
+
+upload the firmware in this project. Notice that averdude is hardcoded to be `/usr/local/bin/avrdude` it has to be 7.2+ otherwise you get `wrong signature`
 
 Select the correct baud rate in the serial monitor - 19200 (for my attiny13). 
 
